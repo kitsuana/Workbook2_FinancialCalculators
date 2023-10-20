@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Financial Calculators</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-        <link rel="stylesheet" href="css/mortageCalculator.css" />
+        <link rel="stylesheet" href="css/presentValueAnnuityCalculator.css" />
     </head>
     <body>
         <header>
@@ -31,17 +31,9 @@
             </nav>
         </header>
         <main>
-            <p>Loan Principal: <input type="number" id="principalField" required /></p>
-            <p>Interest Rate: <input type="number" id="interestRateField" required /></p>
-            <p>Loan term (years): <input type="number" id="loanLengthField" required /></p>
-            <input type="button" value="Calculate" id="calculateButton" />
-
-            <p>Monthly Payments: <input type="number" id="monthlyPaymentField" readonly /></p>
-            <p>Total Interest Paid: <input type="number" id="toatlInterestField" readonly /></p>
-
-            <!-- Example: A $53,000 loan at 7.625% interest for 15 years would have a $495.09/mo payment with a total interest of $36,115.99 This calculator would use a compounded interest formula. -->
+            
         </main>
 
-        <script src="scripts/mortageCalculator.js"></script>
+        <script src="scripts/presentValueAnnuityCalculator.js"></script>
     </body>
 </html>

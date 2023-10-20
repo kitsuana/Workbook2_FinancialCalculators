@@ -1,0 +1,14 @@
+.navbar, .navbar-expand-lg {
+    backdrop-filter: blur(10px);
+    background-color: rgba(205, 203, 200, 0.315);
+    border-bottom: .5px solid #000000c3;
+}
+
+body, main {
+    background-color: #d9d7d3;
+}
+
+body {
+    padding-top: 70px;
+    text-align: center;
+}
