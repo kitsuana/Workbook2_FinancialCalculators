@@ -9,29 +9,29 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg fixed-top">
+            <nav class="navbar fixed-top">
                 <div class="container-fluid">
-                    <button
-                        class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" ><span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Mortgage Calculator</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="cdMaturityCalculator.html">CD Maturity Calculator</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="presentValueAnnuityCalculator.html">Present Value of Ordinary Annuity Calculator</a>
-                            </li>
-                        </ul>
+                    <div>
+                                <a href="index.html">Mortgage Calculator</a>
+                                <a href="cdMaturityCalculator.html">CD Maturity Calculator</a>
+                                <a href="presentValueAnnuityCalculator.html">Present Value of Ordinary Annuity Calculator</a>
                     </div>
                 </div>
             </nav>
         </header>
         <main>
+            <p>Deposit ($): <input type="number" id="depositField" required /></p>
+            <p>Interest Rate (%): <input type="number" id="interestRateField" required /></p>
+            <p>CD term (years): <input type="number" id="termLengthField" required /></p>
             
+            <div class="buttons">
+                <input type="button" value="Calculate" id="calculateButton" />
+                <input type="button" value="Reset" id="resetButton" />
+            </div>
+
+            <p>Future Value: <input type="number" id="futureValueField" readonly /></p>
+            <p>Total Interest Earned: <input type="number" id="totatlInterestField" readonly /></p>
+            <!-- <p><input type="text" id="answerField" readonly></p> -->
         </main>
 
         <script src="scripts/cdMaturityCalculator.js"></script>

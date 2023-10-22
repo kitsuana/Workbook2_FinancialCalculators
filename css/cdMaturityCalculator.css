@@ -1,14 +1,38 @@
 .navbar, .navbar-expand-lg {
     backdrop-filter: blur(10px);
-    background-color: rgba(205, 203, 200, 0.315);
+    background-color: rgba(245, 245, 245, 0.315);
     border-bottom: .5px solid #000000c3;
 }
 
 body, main {
-    background-color: #d9d7d3;
+    background-color: #d0def3f3;
+    margin: auto;
+}
+
+main {
+  margin: auto;
+  max-width: min-content;
+  text-align: left;
 }
 
 body {
     padding-top: 70px;
-    text-align: center;
+}
+
+.buttons {
+  margin-bottom: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/* Chrome, Safari, Edge, Opera hide arrows in number input*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox  hide arrows in number input*/
+input[type=number] {
+  -moz-appearance: textfield;
 }
