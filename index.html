@@ -20,7 +20,7 @@
             </nav>
         </header>
         <main>
-            <p>Loan Principal ($): <input type="number" id="principalField" required /></p>
+            <p>Loan Principal ($): <input type="number" id="principalField" required oninvalid="alert('You must use numbers.');" /></p>
             <p>Interest Rate (%): <input type="number" id="interestRateField" required /></p>
             <p>Loan term (years): <input type="number" id="loanLengthField" required /></p>
             
