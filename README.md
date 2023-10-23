@@ -11,6 +11,9 @@ Utilized CSS and JavaScript to construct a website with three calculators: Mortg
 ### Present Value of Ordinary Annuity Calculator
 ![Present Value of Ordinary Annuity Calculator Inputs](images/presentValueAnnuityCalculatorInputs.png)
 
+### Error
+![Input Errors on Mortgage Calculator](images/mortageCalculatorInputError.png)
+
 
 #### An Interesting Bit of Code
 

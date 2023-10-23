@@ -20,18 +20,20 @@
             </nav>
         </header>
         <main>
-            <p>Deposit ($): <input type="number" id="depositField" required /></p>
-            <p>Interest Rate (%): <input type="number" id="interestRateField" required /></p>
-            <p>CD term (years): <input type="number" id="termLengthField" required /></p>
-            
-            <div class="buttons">
-                <input type="button" value="Calculate" id="calculateButton" />
-                <input type="button" value="Reset" id="resetButton" />
-            </div>
+            <form class="was-validated">
+                <p>Deposit ($): <input type="number" id="depositField" class="form-control" required /></p>
+                <p>Interest Rate (%): <input type="number" id="interestRateField" class="form-control" required /></p>
+                <p>CD term (years): <input type="number" id="termLengthField" class="form-control" required /></p>
+                
+                <div class="buttons">
+                    <input type="button" value="Calculate" id="calculateButton" />
+                    <input type="button" value="Reset" id="resetButton" />
+                </div>
 
-            <p>Future Value: <input type="number" id="futureValueField" readonly /></p>
-            <p>Total Interest Earned: <input type="number" id="totatlInterestField" readonly /></p>
-            <!-- <p><input type="text" id="answerField" readonly></p> -->
+                <p>Future Value: <input type="number" id="futureValueField" readonly /></p>
+                <p>Total Interest Earned: <input type="number" id="totatlInterestField" readonly /></p>
+                <!-- <p><input type="text" id="answerField" readonly></p> -->
+            </form>
         </main>
 
         <script src="scripts/cdMaturityCalculator.js"></script>
