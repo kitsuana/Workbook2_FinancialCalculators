@@ -15,6 +15,7 @@ Utilized CSS and JavaScript to construct a website with three calculators: Mortg
 ![Input Errors on Mortgage Calculator](images/mortageCalculatorInputError.png)
 
 
+
 #### An Interesting Bit of Code
 
 Using a reset button to reset all input fields was a bit of a challenge but a satisfying result when it was completed.
